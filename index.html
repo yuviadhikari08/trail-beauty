@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional makeup artist Nikita Dakua - Book your transformation today. Specializing in bridal, editorial, and everyday looks.">
+    <meta name="keywords" content="makeup artist, Nikita Dakua, bridal makeup, beauty, cosmetics">
+    <title>Nikita Dakua - Makeup Artist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Nikita Dakua</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Beauty with Nikita Dakua</h1>
+            <p>Expert makeup artist specializing in bridal, editorial, and everyday glam.</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Nikita</h2>
+            <div class="about-content">
+                <img src="profile.JPG" alt="Nikita Dakua">
+                <p>With over 5 years of experience, Nikita Dakua brings creativity and precision to every look. From natural daytime makeup to dramatic evening transformations, she tailors her services to your unique style. Based in Shaktifarm (Udham Singh Nagar), she travels for events and shoots.</p>
+                <p>5 साल से अधिक के अनुभव के साथ, निकिता डकुआ हर लुक में रचनात्मकता और सटीकता लाती हैं। प्राकृतिक दिन के मेकअप से लेकर नाटकीय शाम के रूपांतरण तक, वह अपनी सेवाओं को आपकी अनूठी शैली के अनुसार ढालती हैं। शाक्तिफ़ार्म (उधम सिंह नगर) में आधारित, वह इवेंट्स और शूट के लिए यात्रा भी करती हैं।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="bridal.JPG" alt="Bridal Makeup">
+                    <h3>Bridal Makeup</h3>
+                    <p>Flawless looks for your special day, including trials and touch-ups.</p>
+                </div>
+                <div class="service-card">
+                    <img src="editoral.JPG" alt="Editorial Makeup">
+                    <h3>Editorial & Photoshoots</h3>
+                    <p>Creative, high-fashion makeup for magazines and campaigns.</p>
+                </div>
+                <div class="service-card">
+                    <img src="everyday.JPG" alt="Everyday Makeup">
+                    <h3>Everyday Glam</h3>
+                    <p>Quick, natural enhancements for work, dates, or events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <img src="makeup1.JPG" alt="Makeup look 1" onclick="openLightbox(this)">
+                <img src="makeup2.JPG" alt="Makeup look 2" onclick="openLightbox(this)">
+                <img src="makeup3.JPG" alt="Makeup look 3" onclick="openLightbox(this)">
+                <img src="makeup4.JPG" alt="Makeup look 4" onclick="openLightbox(this)">
+            </div>
+        </div>
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Nikita made me feel like a queen on my wedding day. Absolutely stunning!"</p>
+                    <cite>Insta- @ankitamandal188</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Professional, creative, and punctual. Highly recommend for photoshoots."</p>
+                    <cite>Insta- __ni.kki>__s</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"My everyday makeup has never looked better. She's a magician!"</p>
+                    <cite>Insta- official__rinki_96</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact & Book</h2>
+            <div id="contact-info">
+                <p>Email: nikitadakuanikita@gmail.com</p>
+                <p>Phone: 6395557518</p>
+                <p>Instagram: @nikita_dakua6_enhancebeauty</p>
+                <p>Kindly visit my Instagram to watch my attractive work.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nikita Dakua. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
